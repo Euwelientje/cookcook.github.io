@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>COOKCOOK</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body class="bodyIndex">
+    <nav>
+      <div class="logo">
+        <a href="Index.html">
+          <h2>COOKCOOK</h2>
+        </a>
+      </div>
+      <ul class="navLinks">
+        <li>
+          <a href="Index.html">HOME</a>
+        </li>
+        <li>
+          <a href="#">RECEPTEN</a>
+        </li>
+        <li>
+          <a href="About.html">ABOUT ME</a>
+        </li>
+        <li>
+          <a href="#">CONTACT</a>
+        </li>
+        <li>
+          <a href="#">FAVORIETEN</a>
+        </li>
+      </ul>
+      <div class="marginBurger">
+        <div class="burger">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+            <div class="container" onclick="myFunction(this)">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+            </div>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <section class="fixed">
+      <div id="slides" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="IMG_7974_edited.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG_8086.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG_8573.jpg">
+          </div>
+          <div class="carousel-item">
+            <img src="IMG_8645.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section >
+      <div class="recentVids">
+        <div class="container-fluid">
+          <div class="resentVideosRecipes ">
+            <h3 class="myResentVideos">Recente videos en recepten</h3>
+            <p class="myReseentVideosDescription">"Ik weet dat ik niet vaak upload..." ~ COOKCOOK</p>
+            <div class="row justify-content-center">
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 bootstrapImgDiv">
+                <a class="imgLink" href="#">
+                  <div class=" paddingVideoImg">
+                    <img class="videoImg" src="IMG_7974.jpg">
+                    <h4 class="recentRecept">[RECEPT] Chocolate Red Velvet</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 bootstrapImgDiv">
+                <a class="imgLink" href="#">
+                  <div class=" paddingVideoImg">
+                    <img class="videoImg" src="IMG_7974.jpg">
+                    <h4 class="recentRecept">[VIDEO] Cinnamon Rolls</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 bootstrapImgDiv">
+                <a class="imgLink" href="#">
+                  <div class=" paddingVideoImg">
+                    <img class="videoImg" src="IMG_7974.jpg">
+                    <h4 class="recentRecept">[VIDEO] Baked Cheesecake</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-12 d-flex justify-content-center buttonMargin1">
+                <a href="Recepten.html" class="buttonLink">Recepten</a>
+              </div>
+              <div class="col-12 d-flex justify-content-center buttonMargin2">
+                <a href="https://www.youtube.com/channel/UC-wYvdjyxRfF_NBT2w4ZXWw" target="_blank" class="buttonLink">Youtube</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="fixedBackgroundImg"></div>
+    </section>
+    <section>
+      <div class="makeAccountSection">
+        <h3 class="myResentVideos">Wilt u op de hoogte blijven van nieuwe video's en recepten?</h1>
+        <h3 class="makeAccountText">Meld u nu aan!</h3>
+        <div class="arrowIcon">
+          <i class="fas fa-angle-double-down customArrow"></i>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12 d-flex justify-content-center buttonMargin3">
+            <a href="Login.html" class="buttonLink">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="backgroundFooter">
+      <div class="socialsLogos">
+        <a href="https://www.youtube.com/channel/UC-wYvdjyxRfF_NBT2w4ZXWw" target="_blank">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/cookcook.euwe/" target="_blank">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://vm.tiktok.com/ZMej5FDXq/" target="_blank">
+          <i class="fab fa-tiktok"></i>
+        </a>
+      </div>
+      <p class="copyrightWebsite">Website gemaakt door Euwelientjeproducties© || Alle rechten voorbehouden</p>
+    </footer>
+  </body>
+  <script src="app.js"></script>
+</html>
